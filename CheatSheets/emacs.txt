@@ -1,0 +1,62 @@
+* Screen Move
+-------------
+	C-v	Move forward one screenful
+	M-v	Move backward one screenful
+	C-l	Clear screen and redisplay all the text,
+
+* Move cursors
+--------------
+			  Previous line, C-p
+				  :
+				  :
+   Backward, C-b .... Current cursor position .... Forward, C-f
+				  :
+				  :
+			    Next line, C-n
+
+* Move cursors by words/sentence
+--------------------------------
+	C-f	Move forward a character
+	C-b	Move backward a character
+
+	M-f	Move forward a word
+	M-b	Move backward a word
+
+	C-n	Move to next line
+	C-p	Move to previous line
+
+	C-a	Move to beginning of line
+	C-e	Move to end of line
+
+	M-a	Move back to beginning of sentence
+	M-e	Move forward to end of sentence
+
+	M-<	Move back to beginning of document
+	M->	Move forward to end of document
+
+* Numeric Argument
+------------------
+	C-u [Number] [Command]	Repeat
+
+* Editing
+------
+	<DEL>        Delete the character just before the cursor
+	C-d   	     Delete the next character after the cursor
+
+	M-<DEL>      Kill the word immediately before the cursor
+	M-d	     Kill the next word after the cursor
+
+	C-k	     Kill from the cursor position to end of line
+	M-k	     Kill to the end of the current sentence
+
+	C-<SPC>	     Mark a segment
+	C-w	     kill a segment
+	M-w	     copy a segment
+
+	C-y	     yank most recently killed text
+	M-y	     ???????
+
+* UNDO
+------
+	C-/	undo one command
+
