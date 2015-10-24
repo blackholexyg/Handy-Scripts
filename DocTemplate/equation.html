@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Equations MathJax</title>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      TeX: {
+        equationNumbers: {
+          autoNumber: "AMS",
+          formatNumber: function (n) {return n},
+          formatTag: function (n) {return '(Eq. '+n+')'}
+        }
+      }
+    });
+  </script>
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <style>
+    html {
+      width: 95%;
+      margin-left:auto;
+      margin-right:auto;
+      font-size: 16px;
+      font-family: 'Helvetica Neue', Arial, 'Hiragino Sans GB',
+             'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
+    }
+    body {
+      max-width: 48em;
+      margin-left:auto;
+      margin-right:auto;
+    }
+    h1 {
+      text-align: center;
+      font-size: 140%;
+      margin-bottom: 2em;
+      margin-top: 2em;
+    }
+    h2,h3 {
+      text-align: left;
+      font-size: 110%;
+      margin-bottom: 1em;
+      margin-top: 2em;
+    }
+    p {
+      margin-top: 1em;
+      margin-bottom: 1em;
+    }
+  </style>
+</head>
+<body>
+  <h1>Some Title</h1>
+
+  <h2>Section 1</h2>
+  <p>
+    Some descritpion #1
+    \begin{equation}
+        E = mc^2
+    \end{equation}
+
+    Some descritpion #2
+    \begin{equation}
+        P V = n R T
+    \end{equation}
+
+    Some descritpion #3
+    \begin{equation}
+        \dot{w} = t^2
+    \end{equation}
+  </p>
+
+  <h2>Section 2</h2>
+  <p>
+    Some more
+  </p>
+</body>
+</html>
