@@ -1,4 +1,4 @@
- # -*- coding: UTF-8 -*-
+# -*- coding: UTF-8 -*-
 # Created: Yeguang, 2015-08-01
 
 # Common modules import
@@ -16,5 +16,5 @@ Hyper_C10=young/(5*(1+poisson))
 Hyper_C01=young/(20*(1+poisson))
 Hyper_D1 =6*(1-2*poisson)/young
 currentModel.materials['HyperElastic'].Hyperelastic(materialType=ISOTROPIC,
-	testData=OFF, type=MOONEY_RIVLIN, volumetricResponse=VOLUMETRIC_DATA,
-	table=(( Hyper_C10, Hyper_C01, Hyper_D1), ))
+    testData=OFF, type=MOONEY_RIVLIN, volumetricResponse=VOLUMETRIC_DATA,
+    table=(( Hyper_C10, Hyper_C01, Hyper_D1), ))
